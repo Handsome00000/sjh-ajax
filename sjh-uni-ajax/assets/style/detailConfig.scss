@@ -1,0 +1,49 @@
+	.z_btm_nav {
+		position: fixed;
+		z-index: 99;
+		padding: 10upx 0;
+		width: calc(100% - 180upx);
+		bottom: 90upx;
+		right: 0;
+		left: 180upx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #EEEEEE;
+	}
+	.form_item {
+		background: #FFFFFF;
+		margin-bottom: 20upx;
+		padding: 20upx;
+	}
+	.cu-btn button-hover {
+		background: #000;
+		font-size: 28upx;
+		color: #1DF4F4;
+	}
+	
+	.uni-form-item .title {
+		padding: 20upx 0;
+	}
+	
+	.uni-input {
+		border: 1px solid #CCCCCC;
+		padding: 10upx;
+		border-radius: 3upx;
+	}
+	
+	.checkbox_group {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+	}
+	
+	.checkbox_con {
+		display: flex;
+		margin-right: 20upx;
+		margin-bottom: 20upx;
+	}
+	
+	.grey {
+		color: #CCCCCC;
+	}
